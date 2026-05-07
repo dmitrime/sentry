@@ -1,0 +1,29 @@
+src/sentry/replays/usecases/delete.py
+  76cb382a5bdb1e59 25,39,76-79
+src/sentry/tasks/post_process.py
+  76cb382a5bdb1e59 18,38,928
+src/sentry/replays/tasks.py
+  76cb382a5bdb1e59 9,29,151-154
+src/sentry/replays/usecases/events.py
+  76cb382a5bdb1e59 7,9,62-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "94e43568bc2452b56a23ad52bef9b3ea12920698",
+  "prompts": {
+    "76cb382a5bdb1e59": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2099a6356ffeFele0iqVr3c6XG",
+        "model": "openai/gpt-5.5"
+      },
+      "human_author": "Dmitri Melnikov",
+      "messages": [],
+      "total_additions": 21,
+      "total_deletions": 6,
+      "accepted_lines": 21,
+      "overriden_lines": 0
+    }
+  }
+}
